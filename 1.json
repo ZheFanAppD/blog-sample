@@ -1,0 +1,371 @@
+{
+ "dashboardContent": {
+  "definition": {
+   "aspectRatio": 1.7777777777777777,
+   "fixedAspectRatio": false,
+   "persistTimeRange": false,
+   "refreshIntervalConfig": {
+    "refreshInterval": 120000,
+    "selectedInterval": "TWO_MINUTES",
+    "intervalUnit": "MINUTES",
+    "type": "time-interval",
+    "version": 1
+   },
+   "children": [
+    {
+     "columns": [
+      {
+       "fixed": false,
+       "value": 0.24522760646108663,
+       "sectionGuid": "e24d46b3-2bd7-43b9-bf7f-9b35aa190e4f",
+       "order": 1,
+       "type": "grid-section-model",
+       "version": 1
+      },
+      {
+       "fixed": false,
+       "value": 0.055800293685756244,
+       "sectionGuid": "4c59fb92-364f-4faf-a14d-07cf81eb0c46",
+       "order": 2,
+       "type": "grid-section-model",
+       "version": 1
+      },
+      {
+       "fixed": false,
+       "value": 0.3406659109280757,
+       "sectionGuid": "564eed2c-d042-4cfd-90fd-2b84041fbbe2",
+       "order": 3,
+       "type": "grid-section-model",
+       "version": 1
+      },
+      {
+       "fixed": false,
+       "value": 0.3583061889250814,
+       "sectionGuid": "4e02d3bc-6f9f-4607-90c2-1848ea8e2ebb",
+       "order": 4,
+       "type": "grid-section-model",
+       "version": 1
+      },
+      {
+       "fixed": false,
+       "value": 0,
+       "sectionGuid": "4336b08d-09de-4f1c-86d1-9f2d3e650641",
+       "order": 5,
+       "type": "grid-section-model",
+       "version": 1
+      }
+     ],
+     "rows": [
+      {
+       "fixed": true,
+       "value": 1,
+       "sectionGuid": "465b7ce6-3814-44fe-a6e7-b8d1589653d1",
+       "order": 1,
+       "type": "grid-section-model",
+       "version": 1
+      },
+      {
+       "fixed": true,
+       "value": 250,
+       "sectionGuid": "4c079504-7320-4af3-8e6a-cd480c2e47d4",
+       "order": 2,
+       "type": "grid-section-model",
+       "version": 1
+      },
+      {
+       "fixed": true,
+       "value": 261,
+       "sectionGuid": "5b33c18a-a26d-4af1-84fe-10e75a6aae5d",
+       "order": 3,
+       "type": "grid-section-model",
+       "version": 1
+      },
+      {
+       "fixed": false,
+       "value": 0,
+       "sectionGuid": "f948379e-66b4-4e2c-b60b-c23333f35ea3",
+       "order": 4,
+       "type": "grid-section-model",
+       "version": 1
+      }
+     ],
+     "cardMode": false,
+     "title": "Enter Widget Title",
+     "subTitle": "Enter Widget Subtitle",
+     "showTitle": true,
+     "showSubtitle": false,
+     "children": [
+      {
+       "showMetricName": true,
+       "numberFormat": {
+        "numberStyle": "decimal_short"
+       },
+       "showTrend": true,
+       "invertTrend": false,
+       "series": {
+        "properties": {
+         "name": "Calls per Minute",
+         "type": "numeric-series-properties2",
+         "version": 1
+        },
+        "query": {
+         "baselineId": -1,
+         "entityFilter": {
+          "databaseType": null,
+          "filterType": null,
+          "applicationDiagnosticDataType": null,
+          "nameMatchFilter": null,
+          "nodeType": null,
+          "parentEntities": null,
+          "prefixMetricPath": null,
+          "specificEntities": null,
+          "templateEntities": null,
+          "tierEntities": null,
+          "type": "template-entity-filter",
+          "version": 1
+         },
+         "healthCategory": null,
+         "measurementCategory": "OVERALL_APP_PERF",
+         "metric": {
+          "relative": true,
+          "name": "Calls per Minute"
+         },
+         "templateScopingEntity": "appName",
+         "scopingEntity": null,
+         "source": "APPLICATION",
+         "timeRangeSpecifier": {
+          "type": "BETWEEN_TIMES",
+          "endTime": 1612811040000,
+          "startTime": 1612807440000,
+          "durationInMinutes": 60
+         },
+         "timeShift": null,
+         "metricDataFilter": null,
+         "rollupMetricData": false,
+         "guid": "ce4fa510-74ff-4cce-a8e4-5ef28110fda6",
+         "analytics": false,
+         "type": "template-widget-data-query",
+         "version": 2
+        },
+        "type": "template-series-definition",
+        "version": 1
+       },
+       "compareTimeRange": {
+        "compareType": "time-shift",
+        "timeShiftNumber": 1,
+        "timeShiftUnit": 3600000,
+        "absoluteRangeDateTime": 0,
+        "absoluteRangeStartPoint": "start",
+        "timeRange": "02/08/21 10:34 PM - 02/08/21 11:34 PM",
+        "type": "compare-time-range-properties",
+        "version": 1
+       },
+       "title": "Enter Widget Title",
+       "subTitle": "Enter Widget Subtitle",
+       "showTitle": true,
+       "showSubtitle": false,
+       "navigationProperties": {
+        "navigationType": "METRIC_BROWSER",
+        "navigationTarget": "CURRENT_PAGE",
+        "url": "",
+        "dashboardId": -1,
+        "passedVariables": [],
+        "type": "navigation-properties",
+        "version": 1
+       },
+       "eventListeners": [],
+       "guid": "6f03c74d-562c-4b8a-895a-df92af8bb02f",
+       "layoutStyle": {
+        "grid-row": "1 / 3",
+        "grid-column": "1 / 2",
+        "-ms-grid-row-span": "2",
+        "-ms-grid-column-span": "1",
+        "-ms-grid-row": "1",
+        "-ms-grid-column": "1",
+        "width": "100%",
+        "height": "100%",
+        "display": "inline-block",
+        "position": "absolute",
+        "topRowGuid": "465b7ce6-3814-44fe-a6e7-b8d1589653d1",
+        "bottomRowGuid": "5b33c18a-a26d-4af1-84fe-10e75a6aae5d",
+        "leftColumnGuid": "e24d46b3-2bd7-43b9-bf7f-9b35aa190e4f",
+        "rightColumnGuid": "4c59fb92-364f-4faf-a14d-07cf81eb0c46"
+       },
+       "type": "numeric-widget2",
+       "version": 2
+      },
+      {
+       "series": [
+        {
+         "properties": {
+          "visualizationType": "spline",
+          "name": "Calls per Minute",
+          "color": "blue",
+          "yAxisIndex": 0,
+          "visible": true,
+          "type": "cartesian-series-properties2",
+          "version": 1
+         },
+         "query": {
+          "baselineId": -1,
+          "entityFilter": {
+           "databaseType": null,
+           "filterType": null,
+           "applicationDiagnosticDataType": null,
+           "nameMatchFilter": null,
+           "nodeType": null,
+           "parentEntities": null,
+           "prefixMetricPath": null,
+           "specificEntities": null,
+           "templateEntities": null,
+           "tierEntities": null,
+           "type": "template-entity-filter",
+           "version": 1
+          },
+          "healthCategory": null,
+          "measurementCategory": "OVERALL_APP_PERF",
+          "metric": {
+           "relative": true,
+           "name": "Calls per Minute"
+          },
+          "templateScopingEntity": "appName",
+          "scopingEntity": null,
+          "source": "APPLICATION",
+          "timeRangeSpecifier": null,
+          "timeShift": null,
+          "metricDataFilter": null,
+          "rollupMetricData": false,
+          "guid": "c6c84a66-793d-4783-a626-49a6a45d10b9",
+          "analytics": false,
+          "type": "template-widget-data-query",
+          "version": 2
+         },
+         "type": "template-series-definition",
+         "version": 1
+        }
+       ],
+       "chartProperties": {
+        "chartTitle": "",
+        "stacking": "undefined",
+        "xAxis": [
+         {
+          "axisTitle": "",
+          "unit": "",
+          "type": "cartesian-axis-properties2",
+          "version": 1
+         }
+        ],
+        "yAxis": [
+         {
+          "axisTitle": "",
+          "unit": "",
+          "type": "cartesian-axis-properties2",
+          "version": 1
+         }
+        ],
+        "thresholds": [],
+        "legend": {
+         "align": "bottom",
+         "visible": true,
+         "type": "cartesian-legend-properties2",
+         "version": 1
+        },
+        "compareTimeRange": {
+         "granularityInMinutes": 1,
+         "retainGranularity": false,
+         "compareType": "none",
+         "timeShiftNumber": 1,
+         "timeShiftUnit": 3600000,
+         "absoluteRangeDateTime": 0,
+         "absoluteRangeStartPoint": "start",
+         "timeRange": "",
+         "type": "cartesian-compare-time-range-properties2",
+         "version": 1
+        },
+        "type": "cartesian-chart-properties2",
+        "version": 1
+       },
+       "title": "Enter Widget Title",
+       "subTitle": "Enter Widget Subtitle",
+       "showTitle": true,
+       "showSubtitle": false,
+       "navigationProperties": {
+        "navigationType": "METRIC_BROWSER",
+        "navigationTarget": "CURRENT_PAGE",
+        "url": "",
+        "dashboardId": -1,
+        "passedVariables": [],
+        "type": "navigation-properties",
+        "version": 1
+       },
+       "eventListeners": [],
+       "guid": "2fc87163-d5c9-43f5-b5cf-3193b73f264c",
+       "layoutStyle": {
+        "grid-row": "2 / 3",
+        "grid-column": "3 / 4",
+        "-ms-grid-row-span": "1",
+        "-ms-grid-column-span": "1",
+        "-ms-grid-row": "2",
+        "-ms-grid-column": "3",
+        "width": "100%",
+        "height": "100%",
+        "display": "inline-block",
+        "position": "absolute",
+        "topRowGuid": "4c079504-7320-4af3-8e6a-cd480c2e47d4",
+        "bottomRowGuid": "5b33c18a-a26d-4af1-84fe-10e75a6aae5d",
+        "leftColumnGuid": "564eed2c-d042-4cfd-90fd-2b84041fbbe2",
+        "rightColumnGuid": "4e02d3bc-6f9f-4607-90c2-1848ea8e2ebb"
+       },
+       "type": "cartesian-widget2",
+       "version": 2
+      }
+     ],
+     "variables": [],
+     "declarations": [],
+     "eventListeners": [],
+     "guid": "e26f3000-d4a5-4262-9fcb-1ddfffe2127b",
+     "layoutStyle": {
+      "padding": 18
+     },
+     "type": "grid-container",
+     "version": 1
+    }
+   ],
+   "variables": [
+    {
+     "name": "appName",
+     "entityType": "APPLICATION",
+     "entityIds": [
+      "ECommerce-Sales-Demo"
+     ],
+     "testIds": [],
+     "showViewMode": true,
+     "type": "template-variable",
+     "version": 1
+    },
+    {
+     "name": "test2",
+     "entityType": "APPLICATION",
+     "entityIds": [
+      "ECommerce-Sales-Demo-Fulfillment-1"
+     ],
+     "testIds": [],
+     "showViewMode": true,
+     "type": "template-variable",
+     "version": 1
+    }
+   ],
+   "declarations": [],
+   "eventListeners": [],
+   "guid": "6bf7cba9-2e0a-41ec-860f-a10efaab00dd",
+   "style": {
+    "background-color": "rgba(241, 243, 245, 1)",
+    "padding": "18px"
+   },
+   "type": "dashboard-container",
+   "version": 2
+  }
+ },
+ "name": "NGT",
+ "schemaVersion": 1
+}
